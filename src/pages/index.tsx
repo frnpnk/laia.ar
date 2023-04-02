@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>`Laia`</title>
+        <title>Laia</title>
         <meta name="description" content="Laboratorio abierto de inteligencia artificial" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -19,8 +19,8 @@ export default function Home() {
       <main className={styles.main}>
 
         <header>
-          <Typography variant="h1" color="initial">LAIA</Typography>
-          <Typography variant="h3" color="initial">Laboratorio abierto de inteligencia artificial</Typography>
+          <Typography variant="h1" color="theme.palette.text.secondary">LAIA</Typography>
+          <Typography variant="h3" color="theme.palette.text.secondary">laboratorio abierto de inteligencia artificial</Typography>
         </header>
         <link rel="discord" href="https://discord.gg/SscaaUgb" />
         <a href="https://discord.gg/SscaaUgb">
