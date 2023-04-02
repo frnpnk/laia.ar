@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import { Button } from '@mui/material'
+import { Button, Typography } from '@mui/material'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,8 +19,8 @@ export default function Home() {
       <main className={styles.main}>
 
         <header>
-          <h1>LAIA</h1>
-          <h2>Laboratorio abierto de inteligencia artificial</h2>
+          <Typography variant="h1" color="initial">LAIA</Typography>
+          <Typography variant="h3" color="initial">Laboratorio abierto de inteligencia artificial</Typography>
         </header>
         <link rel="discord" href="https://discord.gg/SscaaUgb" />
         <a href="https://discord.gg/SscaaUgb">
