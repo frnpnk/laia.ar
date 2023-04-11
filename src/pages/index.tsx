@@ -23,7 +23,7 @@ export default function Home() {
           <Typography variant="h3" color="theme.palette.text.secondary">laboratorio abierto de inteligencia artificial</Typography>
         </header>
         <link rel="discord" href="https://discord.gg/SscaaUgb" />
-        <a href="https://discord.gg/SscaaUgb">
+        <a href="https://discord.gg/ZbvzBd9X5A">
 
         <Button  variant="outlined" >Sumate a nuestro discord</Button>
         </a>
